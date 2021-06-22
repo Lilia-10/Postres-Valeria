@@ -1,0 +1,53 @@
+.redes_sociales {
+	position: fixed;
+	right: 0%;
+	top: 35%;
+	font-size: 1.5rem;
+	display: flex;
+	flex-direction: column ;
+	align-items: flex-end;
+	z-index: 100;
+}
+
+.icon {
+	color: rgb(7, 19, 9);
+	text-decoration: none;
+	padding: .7rem;
+	display: flex;
+	transition: all .5s;
+}
+
+.icon-images
+{
+    background:     #f5f108;
+}
+
+
+.icon-facebook
+{
+    background:   #0c08f5;
+}
+
+.icon-instagram
+{
+    background:   #f57208;
+}
+
+.icon-watsap
+{
+    background:   hsl(288, 56%, 42%);
+}
+
+.icon-youtube
+{
+    background:   hsla(356, 91%, 32%, 0.788);
+}
+.icon:hover {
+	padding-right: 3rem;
+	border-radius: 1rem 0 0 1rem;
+    border-top-left-radius:     2em 5em;
+border-top-right-radius:    2em 5em;
+border-bottom-right-radius: 2em 5em;
+border-bottom-left-radius:  2em 5em;
+	box-shadow: 0 0 .5rem rgba(173, 15, 15, 0.42);
+}
